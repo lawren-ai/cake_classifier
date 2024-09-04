@@ -1,6 +1,7 @@
 """
 Contains functions for training and testing a pytorch model
 """
+import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 # creating train and test step
