@@ -77,7 +77,7 @@ def test_step(model: torch.nn.Module,
   return test_loss, test_acc
 
 
-def train(model: nn.Module,
+def train_model(model: nn.Module,
           train_dataloader: torch.utils.data.DataLoader,
           test_dataloader: torch.utils.data.DataLoader,
           optimizer: torch.optim.Optimizer,
