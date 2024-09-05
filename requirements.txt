@@ -1,0 +1,5 @@
+# create requirements file
+
+torch>=2.4.0
+torchvision>=0.19.0
+gradio>=4.42.0
