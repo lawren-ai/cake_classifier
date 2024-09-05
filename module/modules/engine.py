@@ -4,6 +4,7 @@ Contains functions for training and testing a pytorch model
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
+from tqdm.auto import tqdm
 # creating train and test step
 
 def train_step(
